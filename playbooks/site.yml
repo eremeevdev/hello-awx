@@ -1,4 +1,13 @@
 ---
 - hosts: 'all'
   roles:
+
   - role: hello
+    tags: x1
+    vars:
+      msg_prefix: x1
+
+  - role: hello
+    tags: x2
+    vars:
+      msg_prefix: x2

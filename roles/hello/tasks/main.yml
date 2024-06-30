@@ -1,0 +1,9 @@
+- name: Say hello
+  debug: msg="{{ msg_prefix }} Welcome to hello"
+  tags:
+    - hello
+
+- name: Say world
+  debug: msg="{{ msg_prefix }} Welcome to world"
+  tags:
+    - world
