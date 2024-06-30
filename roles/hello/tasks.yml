@@ -1,0 +1,4 @@
+---
+tasks:
+  - name: Say hello
+    debug: msg="Welcome to dummy package"
